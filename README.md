@@ -10,9 +10,14 @@
 <h3>ajouter patient</h3>
 <img src="https://github.com/yhalim8/Gestion_Hopital/blob/main/tpspirng/addthreePatient.png"  width="800" height="600">
 <h3>consulter tous les patients</h3>
-<img src="https://github.com/yhalim8/Gestion_Hopital/blob/main/tpspirng/addthreePatient.png"  width="800" height="600">
-<h3>    - Consulter un patient</h3>
+<img src="https://github.com/yhalim8/Gestion_Hopital/blob/main/tpspirng/findall.png"  width="800" height="600">
+<h3>- Consulter un patient</h3>
 <img src="https://github.com/yhalim8/Gestion_Hopital/blob/main/tpspirng/findPatientByName.png"  width="800" height="600">
+<img src="https://github.com/yhalim8/Gestion_Hopital/blob/main/tpspirng/findbyid.png"  width="800" height="600">
 <h3>supprimer un patient</h3>
 <img src="https://github.com/yhalim8/Gestion_Hopital/blob/main/tpspirng/deletePatient.png"  width="800" height="600">
+<h3>mettre a jour un patient</h3>
+<img src="https://github.com/yhalim8/Gestion_Hopital/blob/main/tpspirng/updatePatient.png"  width="800" height="600">
+<h3>Migrer de H2 Database vers MySQL</h3>
+<img src="https://github.com/yhalim8/Gestion_Hopital/blob/main/tpspirng/mysqlmigration.png"  width="800" height="600">*
 
