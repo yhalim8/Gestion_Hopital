@@ -19,6 +19,7 @@ public interface Ihospital {
     public List<Patient> findallPatient();
     public void deletePatient(Patient patient);
     public void updatePatient(Long l,String nom,Boolean malade);
+    public Patient findbyId(Long id);
 
 
 

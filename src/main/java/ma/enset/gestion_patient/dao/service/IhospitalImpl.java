@@ -89,4 +89,9 @@ public class IhospitalImpl implements Ihospital {
         patient.setNom(nom);
         patientRepo.save(patient);
     }
+
+    @Override
+    public Patient findbyId(Long id) {
+        return patientRepo.findById(id).orElse(null);
+    }
 }

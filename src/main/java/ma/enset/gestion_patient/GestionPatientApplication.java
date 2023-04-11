@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import java.util.Date;
+import java.util.List;
 import java.util.stream.Stream;
 
 @SpringBootApplication
@@ -59,7 +60,15 @@ public class GestionPatientApplication  {
 
             //mettre a jour patient
             service.updatePatient(3L,"luffy",false);
-    };
+
+            //find all Patient
+            List<Patient> patients = service.findallPatient();
+            patients.forEach(patient -> System.out.println(patient.getNom()));
+
+            //find by id
+            Patient patient5 = service.findbyId(3L);
+            System.out.println(patient5.getNom());
+        };
 }
 
 }
